@@ -1,6 +1,6 @@
 {
-    "hosting": {
-      "public": "docs/.vitepress/dist",
-      "ignore": []
-    }
+  "hosting": {
+    "public": "docs/.vitepress/dist",
+    "ignore": []
   }
+}
