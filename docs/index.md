@@ -4,7 +4,7 @@ layout: home
 hero:
   name: Zubalis
   text: Greentech Consultants
-  tagline: Accelerating solutions for positive enviromental change
+  tagline: Accelerating solutions for positive environmental change
 
   actions:
     - theme: brand
