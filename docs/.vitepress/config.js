@@ -4,8 +4,8 @@ export default {
     themeConfig: {
         siteTitle: false,
         footer: {
-            message: 'Zubalis Ltd, 32 Town Lane, Castle Acre, Kings Lynn, PE32 2AU, UK',
-            copyright: 'Copyright © 2023 Zubalis Ltd'
+            message: 'Zubalis Ltd, 8 North Street, Castle Acre, Kings Lynn, PE32 2BA, UK',
+            copyright: 'Copyright © 2024 Zubalis Ltd'
         }
     }
   }
