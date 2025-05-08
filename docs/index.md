@@ -3,13 +3,17 @@ layout: home
 
 hero:
   name: Zubalis
-  text: Greentech Consultants
+  text: Nature Tech Consultants
   tagline: Accelerating solutions for positive environmental change
+  logo: /assets/images/logo.png
 
   actions:
     - theme: brand
       text: Contact Us
       link: 'mailto:antony@zubalis.com'
+    - theme: alt
+      text: Follow on LinkedIn
+      link: https://linkedin.com/company/zubalis
     - theme: alt
       text: View on GitHub
       link: https://github.com/zubalis
