@@ -3,8 +3,8 @@ layout: home
 
 hero:
   name: Zubalis
-  text: Nature Tech Consultants
-  tagline: Accelerating solutions for positive environmental change
+  text: Nature Tech
+  tagline: Delivering AI-powered software for nature and environmental change
   logo: /assets/images/logo.png
 
   actions:

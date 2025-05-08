@@ -1,18 +1,67 @@
 :root {
-  --vp-c-bg: #ffffff;
-  --vp-c-bg-alt: #f6f6f7;
-  --vp-c-bg-elv: #ffffff;
-  --vp-c-bg-soft: #f6f6f7;
+  --vp-c-green-1: #4ba661;
+  --vp-c-green-2: #5eaf72;
+  --vp-c-green-3: #78c18a;
+  --vp-c-green-soft: rgba(75, 166, 97, 0.14);
 
-  --vp-c-brand-1: #4BA661;
-  --vp-c-brand-2: #63BF60;
+  --vp-c-green-alt-1: #63bf60;
+  --vp-c-green-alt-2: #7ad777;
+  --vp-c-green-alt-3: #97e194;
+
+  --vp-c-blue-1: #3258a6;
+  --vp-c-blue-2: #4f77c8;
+  --vp-c-blue-3: #7093d7;
+
+  --vp-c-blue-alt-1: #3270a6;
+  --vp-c-blue-alt-2: #4a8ac1;
+  --vp-c-blue-alt-3: #629dd0;
+
+  --vp-c-black-alt-1: #101a26;
+  --vp-c-black-alt-2: #121a2a;
+  --vp-c-black-alt-3: #202127;
 }
 
 .dark {
-  --vp-c-bg: #101A26;
-  --vp-c-bg-alt: #121A2A;
-  --vp-c-bg-elv: #202127;
-  --vp-c-bg-soft: #202127;
+  --vp-c-green-1: #78c18a;
+  --vp-c-green-2: #4ba661;
+  --vp-c-green-3: #3b8b4f;
+  --vp-c-green-soft: rgba(75, 166, 97, 0.14);
+
+  --vp-c-green-alt-1: #7ad777;
+  --vp-c-green-alt-2: #63bf60;
+  --vp-c-green-alt-3: #3e9b3b;
+
+  --vp-c-blue-1: #4f77c8;
+  --vp-c-blue-2: #3258a6;
+  --vp-c-blue-3: #1d438f;
+
+  --vp-c-blue-alt-1: #4a8ac1;
+  --vp-c-blue-alt-2: #3270a6;
+  --vp-c-blue-alt-3: #155084;
+}
+
+:root {
+  --vp-c-brand-1: var(--vp-c-green-1);
+  --vp-c-brand-2: var(--vp-c-green-2);
+  --vp-c-brand-3: var(--vp-c-green-3);
+  --vp-c-brand-soft: var(--vp-c-green-soft);
+
+  --vp-c-tip-1: var(--vp-c-brand-1);
+  --vp-c-tip-2: var(--vp-c-brand-2);
+  --vp-c-tip-3: var(--vp-c-brand-3);
+  --vp-c-tip-soft: var(--vp-c-brand-soft);
+
+  --vp-c-note-1: var(--vp-c-brand-1);
+  --vp-c-note-2: var(--vp-c-brand-2);
+  --vp-c-note-3: var(--vp-c-brand-3);
+  --vp-c-note-soft: var(--vp-c-brand-soft);
+}
+
+.dark {
+  --vp-c-bg: var(--vp-c-black-alt-1);
+  --vp-c-bg-alt: var(--vp-c-black-alt-2);
+  --vp-c-bg-elv: var(--vp-c-black-alt-3);
+  --vp-c-bg-soft: var(--vp-c-black-alt-3);
 }
 
 html.dark .light-only {
